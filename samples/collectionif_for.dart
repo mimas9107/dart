@@ -6,7 +6,7 @@ void main(List<String> args){
     L1.add(5);    // if true: L1=[1,2,3,5]
   }
   print("L1: ${L1}");
-  
+   
   // 上面的初始化 collection變數的過程可用 if縮減如下, 
   var L2=[9,8,7, if(flag) '11'];   // if true: L2=[9,8,7,11] else: L2=[9,8,7]
   print("L2: ${L2}");

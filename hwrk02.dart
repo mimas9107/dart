@@ -15,7 +15,7 @@ void main(){
   List<List<int>> board=[ [-1,0,1],
                           [ 0,1,0],
                           [-1,0,0] ];
-  board.forEach( (e) => print(e));
+  board.forEach( (e)=>print(e) );
   
   //3. Menu for resteraunt
   List<Map> menu=[{'菜名':'烤肉飯', '價格':100}, {'菜名':'雞排飯', '價格':100},{'菜名':'烤雞腿飯', '價格':110}];

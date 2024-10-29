@@ -1,6 +1,6 @@
 void main(){
   // set := collection, 跟 List一樣有順序性, 但 元素值不可重複, 代表符號: {}
-  
+   
   // 宣告 並初始化:
   Set s1={1,2,3,4,"d"};
   var s2=Set();    // empty set object by class constructor

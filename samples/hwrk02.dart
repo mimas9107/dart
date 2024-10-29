@@ -4,6 +4,7 @@ void main(){
 
   List<Map> ranking =[{"name":"小明", "Jan":2, "Feb":1, "Mar":4}, 
                       {"name":"小美", "Jan":3, "Feb":2,"Mar":3}];
+  
   // Header of table
   print("Rank\t${ranking[0].keys.toList()[1]}\t${ranking[0].keys.toList()[2]}\t${ranking[0].keys.toList()[3]}");
   for(var e in ranking){
@@ -23,5 +24,9 @@ void main(){
   for(var e in menu){
     print("${e['菜名']}\t${e['價格']}");
   }
+
+  var x = {"ranking":[{"小明":{'Jan':1,'Feb':3,'Mar':5}},{"小美":{'Jan':2,'Feb':4,'Mar':6}}]};
+  print(x);
+  print(x["ranking"]);
 
 }

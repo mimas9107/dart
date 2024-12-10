@@ -1,0 +1,4 @@
+Hello, aiot
+Welcome to dart streams.
+this is a sample text file.
+goodbye!!

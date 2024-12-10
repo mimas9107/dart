@@ -1,0 +1,7 @@
+name: middleware
+
+dependencies:
+  http: ^1.2.2 
+
+environment:
+  sdk: '^3.5.4'

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 void main() async{
-  String url='ws://192.168.208.37:8080';
+  String url='ws://127.0.0.1:8080';
   var ws=await WebSocket.connect(url);
 
   // server來的 prompt

@@ -1,11 +1,12 @@
 import 'dart:io';
 void main(List<String> args) async{
   Map<WebSocket, String> clients={};
-
+  late String nickname;
   // 先等待建立 url & port完成:
-  var server=await HttpServer.bind("192.168.208.37", 8080);
+  int port=8080;
+  var server=await HttpServer.bind("127.0.0.1", port);
   // ws:// web socket協定
-  print('server started at ws://127.0.0.1:8080');
+  print("server started at ws://127.0.0.1:$port");
 
   // 開始等待 user連線,
   await for(var req in server){

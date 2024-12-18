@@ -8,9 +8,9 @@ void main(List<String> args) async{
 
   //啟動Server並開始監聽有沒有連線
   //var server = await HttpServer.bind(InternetAddress.loopbackIPv4, 8000);
-  var server = await HttpServer.bind('192.168.208.30', 8000);
+  var server = await HttpServer.bind('192.168.208.37', 8000);
   //print('server started at ws://localhost:8000'); //127.0.0.1
-  print('server started at ws://192.168.208.30:8000');
+  print('server started at ws://192.168.208.37:8000');
 
   //開始處理使用者傳遞國來的資訊
   await for(var req in server){

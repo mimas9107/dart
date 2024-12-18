@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main(List<String> args) async{
   //存放路徑
-  String url = 'ws://192.168.208.30:8000';
+  String url = 'ws://192.168.208.37:8000';
   //連線server, 建立通道
   var ws = await WebSocket.connect(url);
 
